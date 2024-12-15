@@ -17,21 +17,23 @@ const Where = () => {
       </p>
       <div className="ImageContainer">
         <div style={{ position: "relative" }}>
-          <img src="/public/hospital.jpg" alt="Hospital" />
+          <img src="hospital.jpg" alt="Hospital" />
           <div className="ImageText">Hastahanelerde</div>
         </div>
         <div style={{ position: "relative" }}>
-          <img src="./public/kid.jpg" alt="School" />
+          <img src="kid.jpg" alt="School" />
           <div className="ImageText">Okullarda</div>
         </div>
         <div style={{ position: "relative" }}>
-          <img src="../public/gym.jpg" alt="Gym" />
+          <img src="gym.jpg" alt="Gym" />
           <div className="ImageText">Spor Salonlarında</div>
         </div>
         <div style={{ position: "relative" }}>
-          <img src="/public/car.jpg" alt="Car" />
+          <img src="car.jpg" alt="Car" />
           <div className="ImageText">Araçlarda</div>
         </div>
+
+        image
       </div>
     </section>
   );
