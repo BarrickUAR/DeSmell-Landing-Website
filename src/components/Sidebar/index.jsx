@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import './Sidebar.css'; // CSS dosyanızı bağlayın
+import React, { useEffect, useState } from "react";
+import "./Sidebar.css"; // CSS dosyanızı bağlayın
 
 const Sidebar = () => {
   const [isActive, setIsActive] = useState(false); // Sidebar'ın durumu
@@ -13,9 +13,9 @@ const Sidebar = () => {
   }, []);
 
   return (
-    <div className={`sidebar ${isActive ? 'active' : ''}`}>
+    <div className={`sidebar ${isActive ? "active" : ""}`}>
       <div className="sidebar-logo">
-        <img src="./public/images/desmellLogo.svg" alt="Logo" />
+        <img src="/public/images/desmellLogo.svg" alt="Logo" />
       </div>
       <ul>
         <li>
