@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className={`sidebar ${isActive ? "active" : ""}`}>
       <div className="sidebar-logo">
-        <img src="/public/images/desmellLogo.svg" alt="Logo" />
+        <img src="/images/desmellLogo.svg" alt="Logo" />
       </div>
       <ul>
         <li>
