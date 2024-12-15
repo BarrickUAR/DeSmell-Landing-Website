@@ -25,7 +25,7 @@ const Where = () => {
           <div className="ImageText">Okullarda</div>
         </div>
         <div style={{ position: "relative" }}>
-          <img src="/public/gym.jpg" alt="Gym" />
+          <img src="../public/gym.jpg" alt="Gym" />
           <div className="ImageText">Spor Salonlarında</div>
         </div>
         <div style={{ position: "relative" }}>
