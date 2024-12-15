@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
         <div>
           <p className="icon-text">
-            <img src="/icon.png" alt="İsviçre İkonu" className="icon-image" />
+            <img src="./public/images/icon.png" alt="İsviçre İkonu" className="icon-image" />
             İsviçre İnovasyon Ajansı <br /> tarafından desteklenmektedir.
           </p>
         </div>

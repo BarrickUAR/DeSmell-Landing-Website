@@ -1,20 +1,21 @@
-import React, { useEffect, useState } from "react";
-import "./Sidebar.css";
+import React, { useEffect, useState } from 'react';
+import './Sidebar.css'; // CSS dosyanızı bağlayın
 
 const Sidebar = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false); // Sidebar'ın durumu
 
+  // Sayfa yüklendiğinde animasyonu tetikle
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsActive(true);
-    }, 500);
-    return () => clearTimeout(timer);
+    }, 500); // 0.5 saniye sonra sidebar açılır
+    return () => clearTimeout(timer); // Temizlik
   }, []);
 
   return (
-    <div className={`sidebar ${isActive ? "active" : ""}`}>
+    <div className={`sidebar ${isActive ? 'active' : ''}`}>
       <div className="sidebar-logo">
-        <img src="/public/desmellLogo.svg" alt="Logo" />
+        <img src="./public/images/desmellLogo.svg" alt="Logo" />
       </div>
       <ul>
         <li>

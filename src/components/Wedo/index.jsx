@@ -6,7 +6,7 @@ const Wedo = () => {
       <div className="WhatWeDo">
         <div className="WhatWeDoText">
           <div className="Swissmade">
-            <img src="/public/swissMade.svg" alt="" />
+            <img src="./public/images/swissMade.svg" alt="" />
           </div>
 
           <h1> Her Nefeste Ferahlık!</h1>
@@ -24,7 +24,7 @@ const Wedo = () => {
         </div>
 
         <div className="ProductImage">
-          <img src="/public/Do.png" alt="" />
+          <img src="./public/images/Do.png" alt="" />
         </div>
       </div>
     </section>
